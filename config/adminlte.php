@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'souniou niaw',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -45,12 +45,12 @@ return [
     |
     */
 
-    'logo' => '<b>Info</b>DP',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
-    'logo_img_class' => 'brand-image img-circle elevation-3',
+    'logo' => '<b>Bienvenue</b> cw',
+    'logo_img' => '',
+    'logo_img_class' => '',
     'logo_img_xl' => null,
-    'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'AdminLTE',
+    'logo_img_xl_class' => '',
+    'logo_img_alt' => '',
 
     /*
     |--------------------------------------------------------------------------
@@ -196,6 +196,16 @@ return [
 
     'register_url' => 'register',
 
+    'dashboard_url' => 'galerie',
+
+    'dashboard_url' => 'damefemme',
+
+    'dashboard_url' => 'africa-femme',
+
+    'dashboard_url' => 'mode',
+
+    'register_url' => 'register',
+
     'password_reset_url' => 'password/reset',
 
     'password_email_url' => 'password/email',
@@ -242,77 +252,78 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'Artículos',
+            'text'        => 'Mes mesures',
             'url'         => 'articulos',
             'icon'        => 'far fa-fw fa-file',
-            'label'       => 'CRUD',
-            'label_color' => 'warning',
+            'label'       => 'Tailleur',
+            'label_color' => 'danger',
         ],
-        ['header' => 'Configuración de la cuenta'],
+        ['header' => 'Serigne Saliou Couture'],
         [
-            'text' => 'Perfil de Usuario',
+            'text' => 'Mes informations',
             'url'  => 'user/profile',
             'icon' => 'fas fa-fw fa-user',
         ],
+        // [
+        //     'text' => 'change_password',
+        //     'url'  => 'admin/settings',
+        //     'icon' => 'fas fa-fw fa-lock',
+        // ],
+        // [
+        //     'text'    => 'multilevel',
+        //     'icon'    => 'fas fa-fw fa-share',
+        //     'submenu' => [
+        //         [
+        //             'text' => 'level_one',
+        //             'url'  => '#',
+        //         ],
+        //         [
+        //             'text'    => 'level_one',
+        //             'url'     => '#',
+        //             'submenu' => [
+        //                 [
+        //                     'text' => 'level_two',
+        //                     'url'  => '#',
+        //                 ],
+        //                 [
+        //                     'text'    => 'level_two',
+        //                     'url'     => '#',
+        //                     'submenu' => [
+        //                         [
+        //                             'text' => 'level_three',
+        //                             'url'  => '#',
+        //                         ],
+        //                         [
+        //                             'text' => 'level_three',
+        //                             'url'  => '#',
+        //                         ],
+        //                     ],
+        //                 ],
+        //             ],
+        //         ],
+        //         [
+        //             'text' => 'level_one',
+        //             'url'  => '#',
+        //         ],
+        //     ],
+        // ],
+        ['header' => 'VOIR LES MODELS'],
         [
-            'text' => 'change_password',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
-            'text'    => 'multilevel',
-            'icon'    => 'fas fa-fw fa-share',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-                [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-            ],
-        ],
-        ['header' => 'labels'],
-        [
-            'text'       => 'important',
+            'text'       => 'MODE HOMME',
             'icon_color' => 'red',
-            'url'        => '#',
+            'url'        => 'galerie',
         ],
         [
-            'text'       => 'warning',
+            'text'       => 'MODE FEMME',
             'icon_color' => 'yellow',
-            'url'        => '#',
+            'url'        => 'mode',
         ],
-        [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
-        ],
+
+        // [
+        //     'text'       => 'information',
+        //     'icon_color' => 'cyan',
+        //     'url'        => '#',
+        // ],
     ],
 
     /*

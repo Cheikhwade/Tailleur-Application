@@ -22,3 +22,19 @@ Route::resource('articulos','App\Http\Controllers\ArticuloController');
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::get('/galerie', function () {
+    return view('auth.galerie');
+});
+
+Route::get('/mode', function () {
+    return view('auth.mode');
+});
+
+Route::get('/damefemme', function () {
+    return view('auth.damefemme');
+});
+
+Route::get('/africa-femme', function () {
+    return view('auth.africa-femme');
+});
