@@ -9,7 +9,6 @@
                 height: 100%;
                 display: flex;
                 justify-content: space-around;
-
             }
             .primary1{
                 border-radius: 12px;
@@ -31,8 +30,8 @@
     </head>
     <body>
         <a href="articulos" class="primary"><--</a>
-        <h1 class="top2">Taneu sa boula néx</h1>
-            <h6 class="top3">Ay models you amoul fénéne</h6>
+        <h1 class="top2">Galerie femme</h1>
+            <h6 class="top3">Thia model bala</h6>
         <div class="top">
 
 
